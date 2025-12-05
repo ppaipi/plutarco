@@ -114,7 +114,7 @@ function createProductCard(prod) {
       alt="${prod.Nombre}" 
       loading="lazy"
       style="object-fit: cover;"
-      onerror="this.onerror=null; this.src=this.src.replace('.jpeg', '.jpg'); this.onerror=function(){ this.src='../media/PRODUCTOS/placeholder.jpeg'; }"
+      onerror="this.onerror=null; this.src=this.src.replace('.jpeg', '.jpg'); this.onerror=function(){ this.src='../media/PRODUCTOS/placeholder.jpg'; }"
     >
     <h3>${prod.Nombre}</h3>
     <p>$${prod.Precio}</p>
@@ -307,7 +307,7 @@ function updateCart() {
           class="thumb"
           src="../media/PRODUCTOS/${producto.Codigo}.jpeg" 
           alt="${producto.Nombre}" 
-          onerror="this.onerror=null; this.src=this.src.replace('.jpeg', '.jpg'); this.onerror=function(){ this.src='../media/PRODUCTOS/placeholder.jpeg'; }"
+          onerror="this.onerror=null; this.src=this.src.replace('.jpeg', '.jpg'); this.onerror=function(){ this.src='../media/PRODUCTOS/placeholder.jpg'; }"
           loading="lazy"
           width="80" height="80"
           style="object-fit: cover;">
@@ -478,7 +478,7 @@ function crearModalDescripcion(prod) {
   img.onerror = function() {
     this.onerror = null;
     this.src = this.src.replace('.jpeg', '.jpg');
-    this.onerror = function() { this.src = '../media/PRODUCTOS/placeholder.jpeg'; };
+    this.onerror = function() { this.src = '../media/PRODUCTOS/placeholder.jpg'; };
   };
   img.onclick = () => {
     toggleZoom(img.id);
