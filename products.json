@@ -35134,7 +35134,7 @@
     "Precio": 5000,
     "Proveedor": "Plutarco",
     "ImagenURL": "/media/PRODUCTOS/PLUT0030.jpg",
-    "Habilitado": false,
+    "Habilitado": true,
     "Ranking": 999999,
     "Orden": 999999
   },
@@ -35147,7 +35147,7 @@
     "Precio": 10000,
     "Proveedor": "Plutarco",
     "ImagenURL": "/media/PRODUCTOS/PLUT0031.jpg",
-    "Habilitado": false,
+    "Habilitado": true,
     "Ranking": 999999,
     "Orden": 999999
   },
