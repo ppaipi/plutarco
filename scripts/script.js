@@ -665,7 +665,7 @@ function updateCart() {
       <div class="cart-item">
         <img 
           class="thumb"
-          src="media/PRODUCTOS/${prod.Codigo}.jpg" 
+          src="media/PRODUCTOS/${producto.Codigo}.jpg" 
           alt="${producto.Nombre}" 
           onerror="this.onerror=null; this.src='media/PRODUCTOS/placeholder.jpg';"
           width="80" height="80"
