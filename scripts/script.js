@@ -191,10 +191,11 @@ function cargarDiasEntrega() {
 
   select.innerHTML = ""; // limpiar opciones previas
 
-  const diasValidos = [ 1, 4]; // Lunes (1), Jueves (4)
+  const diasValidos = [ 1, 3]; // Lunes (1), Jueves (4)
   const horasCorte = { 
     1: 14, // Lunes → límite 14hs
     2: 14, // Martes → límite 14hs
+    3: 12,
     4: 14  // Jueves → límite 14hs
   };
 
@@ -230,6 +231,7 @@ function cargarDiasEntrega() {
       }
     }
   }
+  
 
   // Renderizar opciones
   select.innerHTML = '<option value="" disabled selected>Seleccionar una fecha</option>';
