@@ -195,7 +195,7 @@ function cargarDiasEntrega() {
   const horasCorte = { 
     1: 14, // Lunes → límite 14hs
     2: 14, // Martes → límite 14hs
-    3: 12,
+    3: 12, // Miércoles → límite 12hs
     4: 14  // Jueves → límite 14hs
   };
 
